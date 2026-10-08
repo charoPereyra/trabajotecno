@@ -1,0 +1,172 @@
+/* =========================
+   CONFIGURACIÓN GENERAL
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #f4f1ea;
+    color: #2f3a2f;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+}
+
+
+/* =========================
+   TÍTULOS
+   ========================= */
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    padding: 20px;
+    background-color: #5f7354;
+    color: white;
+    text-align: center;
+    border-radius: 12px;
+    font-size: 32px;
+}
+
+h2 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    color: #526847;
+    border-bottom: 3px solid #9aaa8b;
+}
+
+h3 {
+    margin-top: 35px;
+    color: #526847;
+    font-size: 22px;
+}
+
+
+/* =========================
+   PÁRRAFOS
+   ========================= */
+
+p {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+    text-align: justify;
+}
+
+
+/* =========================
+   ENLACES
+   ========================= */
+
+a {
+    display: inline-block;
+    margin: 10px 0 20px;
+    padding: 10px 16px;
+    background-color: #7d9270;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+a:hover {
+    background-color: #526847;
+    transform: translateY(-2px);
+}
+
+
+/* =========================
+   LISTAS
+   ========================= */
+
+ul {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+li {
+    margin: 10px 0;
+}
+
+
+/* =========================
+   INDEX
+   ========================= */
+
+/* Los enlaces del menú del index */
+ul a {
+    display: block;
+    margin: 5px 0;
+    text-align: center;
+}
+
+
+/* =========================
+   BOTÓN VOLVER
+   ========================= */
+
+a[href="index.html"] {
+    margin-top: 30px;
+    background-color: #4f6247;
+}
+
+a[href="index.html"]:hover {
+    background-color: #35432f;
+}
+
+
+/* =========================
+   TEXTO DE INTEGRANTES
+   ========================= */
+
+body > p:last-child {
+    margin-top: 40px;
+    background-color: transparent;
+    box-shadow: none;
+    text-align: center;
+    font-size: 14px;
+    color: #667060;
+}
+
+
+/* =========================
+   DISEÑO RESPONSIVE
+   ========================= */
+
+@media (max-width: 768px) {
+
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p,
+    ul {
+        padding: 15px;
+        font-size: 15px;
+    }
+
+    a {
+        width: 100%;
+        text-align: center;
+    }
+}
